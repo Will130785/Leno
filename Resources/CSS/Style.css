@@ -14,13 +14,20 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* Header Section */
 
 header {
     background-image: url("../../Resources/Images/header-background.jpg");
-    background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 .head-content {
@@ -40,6 +47,17 @@ header {
     margin: 0 0.25rem;
 }
 
+.fa-facebook, .fa-twitter {
+    background-color: #00C9DB;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+
+.fa-facebook:hover, .fa-twitter:hover {
+    color: #00C9DB;
+    background-color: white;
+}
+
 
 /* Nav Bar */
 
@@ -57,4 +75,86 @@ header {
     color: white;
     font-size: 0.8rem;
     padding: 0 1rem;
+}
+
+#links a:hover {
+    color: #00C9DB;
+}
+
+/* Review Section */
+
+.review {
+    background-color: #262431;
+    color: white;
+    padding: 8rem 0;
+}
+
+.rev-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.blurb {
+    font-style: italic;
+    padding-top: 2rem
+}
+
+.img-name {
+    font-weight: bold;
+}
+
+/* Featurews Section */
+
+.features {
+    background-color: #2F2C3D;
+    color: white;
+}
+
+.sec-title p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.sec-title {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.feat-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 4rem 1rem 0 1rem;
+}
+
+.icon i {
+    font-size: 1.9rem;
+    background-color: #00C9DB;
+    padding: 2rem;
+    border-radius: 100%;
+}
+
+.text {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.text p {
+    font-size: 0.9rem;
+}
+
+/* Preview Section */
+
+.preview {
+    background-image: url("../../Resources/Images/video-background.jpg");
+    background-position: center;
+    color: white;
+}
+
+.video {
+    padding-bottom: 7rem;
+}
+
+.video img {
+    border-radius: 0.5rem;
 }
