@@ -32,6 +32,7 @@ header {
 
 .head-content {
     color: white;
+    padding-top: 100px;
 }
 
 .head-content p {
@@ -81,6 +82,12 @@ header {
     color: #00C9DB;
 }
 
+.navbar.scrolled {
+    background-color: #4633af;
+    height: 65px;
+    transition: background-color 500ms;
+}
+
 /* Review Section */
 
 .review {
@@ -109,6 +116,7 @@ header {
 .features {
     background-color: #2F2C3D;
     color: white;
+    padding-bottom: 7rem;
 }
 
 .sec-title p {
@@ -157,4 +165,97 @@ header {
 
 .video img {
     border-radius: 0.5rem;
+    width: 100%;
+}
+
+/* Example Section */
+
+.example {
+    background-color: #262431;
+    color: white;
+}
+
+.example img {
+    width: 100%;
+}
+
+.example p {
+    font-size: 1rem;
+}
+
+.feature-eg-one {
+    padding: 7rem 0 3.5rem 0;
+}
+
+.feature-eg-two {
+    padding: 3.5rem 0 7rem 0;
+}
+
+/* Screenshot Section */
+
+.screenshot {
+    background-color: #2F2C3D;
+}
+
+.shot {
+    width: 100%;
+    padding: 7rem 0;
+}
+
+/* Download Section */
+
+.download {
+    background-image: url("../../Resources/Images/header-background.jpg");
+    background-position: center;
+}
+
+.down-img {
+    width: 100%;
+    padding: 7rem 0;
+}
+
+/* User Section */
+
+.user {
+    background-color: #262431;
+    padding: 7rem 0;
+}
+
+.amount {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.cap {
+    font-size: 0.9rem;
+    color: #00C9DB;
+}
+
+/* Contact Section */
+
+.contact {
+    background-image: url("../../Resources/Images/contact-background.jpg");
+    background-position: center;
+    color: white;
+    padding-bottom: 7rem;
+}
+
+.con-link {
+    padding: 0 0.8rem;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #262431;
+    color: white;
+}
+
+.foot-content {
+    padding: 5rem 0;
+}
+
+.copy {
+    font-size: 0.8rem;
 }
